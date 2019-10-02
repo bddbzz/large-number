@@ -1,0 +1,31 @@
+{
+  "name": "@monkeyzz/large-number",
+  "version": "1.0.8",
+  "description": "npm practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lib": "webpack --config build/webpack.lib.js",
+    "prepare": "webpack --config build/webpack.lib.js"
+  },
+  "keywords": [
+    "large-number",
+    "npm"
+  ],
+  "author": "MonkeyZz",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.2",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-import": "^2.18.2",
+    "terser-webpack-plugin": "^2.1.2",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
+}
